@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -14,6 +15,7 @@
             android:layout_height="wrap_content"
             android:text="Registrar Acceso"
             android:textSize="18sp"
+            android:textColor="@color/black"
             android:gravity="center"
             android:padding="8dp" />
 
@@ -22,12 +24,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="ID del docente"
+            android:textColorHint="@color/black"
             android:inputType="text" />
 
         <EditText
             android:id="@+id/inputLaboratorio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
             android:hint="Laboratorio"
             android:inputType="text" />
 
@@ -35,12 +39,14 @@
             android:id="@+id/inputCurso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
             android:hint="Nombre del Curso"
             android:inputType="text"/>
 
         <Button
             android:id="@+id/btnRegistrar"
             android:layout_width="match_parent"
+            android:textColorHint="@color/black"
             android:layout_height="wrap_content"
             android:text="Registrar Entrada" />
 
